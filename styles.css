@@ -1,0 +1,207 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce0e0; /* Pastel pink background */
+    color: #5d3d44; /* Elegant dark pink text */
+    line-height: 1.6;
+}
+
+
+/* Header Section */
+header {
+    background-color: #f8c6d4; /* Soft pink header */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+header img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #5d3d44;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f8c6d4;
+    border-radius: 10px;
+}
+
+
+.hero img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+
+/* Section Styling */
+.section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+.section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+ul li {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+
+/* Gallery Styling */
+.gallery-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.gallery-images img {
+    width: 22%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+
+/* Contact Section */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form label {
+    margin: 10px 0 5px;
+}
+
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+form button {
+    padding: 10px;
+    background-color: #FFB0C0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+form button:hover {
+    background-color: #7f4f56;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #f8c6d4;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+
+footer a {
+    color: #F08080;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* Other Fragrances Section */
+#other-fragrances ul li img {
+    width: 170px; /* Adjust the width of the perfume images */
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+/* Section h2 Styling */
+section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #DB7093;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
